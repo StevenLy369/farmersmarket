@@ -275,14 +275,14 @@ import Items from './Items';
 
  function MarketList(){
      return(
+        
          <React.Fragment>
+              <hr />
              {availableProduce.map((produce,index) =>
              <Items 
              month={produce.month}
              selection={produce.selection}
              key={index} />
-             
-             
              )}
 
          </React.Fragment>

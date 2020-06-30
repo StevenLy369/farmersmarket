@@ -1,13 +1,17 @@
 import React from 'react';
 import Header from './Header';
-import MarketList from './MarketList';
+import MarketControl from './MarketControl'
 
 
 function App(){
     return(
         <React.Fragment>
+            <div class="header">
             <Header />
-            <MarketList />
+
+            </div>
+            
+            <MarketControl />
         </React.Fragment>
     )
 }
